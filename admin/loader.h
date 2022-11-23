@@ -1,4 +1,5 @@
 #include <iostream>
+#include "admin.h"
 using namespace std;
 
 void loader(){
@@ -8,4 +9,5 @@ void loader(){
     }
     cout << '\n';
   }
+  currentCnt++;
 }

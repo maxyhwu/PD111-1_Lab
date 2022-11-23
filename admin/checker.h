@@ -1,6 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "admin.h"
+#include "table.h"
 
-bool checker(int id){
+bool checker(){
   return true;
 }
+

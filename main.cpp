@@ -4,9 +4,8 @@ using namespace std;
 
 int main(){
 
-  while(checker(currentCnt)){
+  while(checker()){
     loader();
-    currentCnt++;
   }
 
   success();
