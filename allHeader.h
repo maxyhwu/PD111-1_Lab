@@ -1,8 +1,3 @@
-// for admins
-#include "./admin/admin.h"
-#include "./admin/checker.h"
-#include "./admin/loader.h"
-
 // for students
 # include "./headers/apple.h"
 # include "./headers/ball.h"

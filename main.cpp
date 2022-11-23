@@ -1,5 +1,6 @@
-# include <iostream>
-# include "allHeader.h"
+#include <iostream>
+#include "allHeader.h"
+#include "admin.h"
 using namespace std;
 
 int main(){
