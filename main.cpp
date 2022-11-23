@@ -3,6 +3,13 @@
 using namespace std;
 
 int main(){
-  cout << apple;
+
+  while(checker(currentCnt)){
+    loader();
+    currentCnt++;
+  }
+
+  success();
+
   return 0;
 }

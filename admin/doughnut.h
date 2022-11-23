@@ -4,7 +4,7 @@
 
 #define HIDE_CURSOR() printf("\033[?25l")
 
-int main() {
+int doughnut() {
     float A = 0, B = 0;
     float i, j;
     int k;
