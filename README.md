@@ -7,5 +7,5 @@ This guide include a slide and some codes, and since IM1003 is a C++ programming
 
 
 
-[^1]: Programming Design, a required course for freshmen in the Department of Information Management, National Taiwan University
+[^1]: Programming Design, a required course for freshmen in the Department of Information Management, National Taiwan University (NTUIM)
 [^2]: The origin source of Delicious donuts please see [Here](https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp)
