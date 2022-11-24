@@ -1,1 +1,1 @@
-int what = 'w' + 'h' + 'a' + 't';
+int what;

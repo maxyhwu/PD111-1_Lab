@@ -1,1 +1,1 @@
-int temp = 't' + 'e' + 'm' + 'p';
+int temp;

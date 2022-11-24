@@ -1,1 +1,1 @@
-int stop = 's' + 't' + 'o' + 'p';
+int stop;

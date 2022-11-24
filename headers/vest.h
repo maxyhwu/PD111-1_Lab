@@ -1,1 +1,1 @@
-int vest = 'v' + 'e' + 's' + 't';
+int vest;

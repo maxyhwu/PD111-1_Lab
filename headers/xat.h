@@ -1,1 +1,1 @@
-int xat = 'x' + 'a' + 't';
+int xat;

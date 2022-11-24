@@ -1,1 +1,1 @@
-int zip = 'z' + 'i' + 'p';
+int zip;

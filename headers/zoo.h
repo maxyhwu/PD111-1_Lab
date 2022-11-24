@@ -1,1 +1,1 @@
-int zoo = 'z' + 'o' + 'o';
+int zoo;

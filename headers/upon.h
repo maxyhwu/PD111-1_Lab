@@ -1,1 +1,1 @@
-int upon = 'u' + 'p' + 'o' + 'n';
+int upon;

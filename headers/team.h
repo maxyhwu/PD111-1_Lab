@@ -1,1 +1,1 @@
-int team = 't' + 'e' + 'a' + 'm';
+int team;

@@ -1,1 +1,1 @@
-int yes = 'y' + 'e' + 's';
+int yes;

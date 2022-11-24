@@ -1,1 +1,1 @@
-int vent = 'v' + 'e' + 'n' + 't';
+int vent;
