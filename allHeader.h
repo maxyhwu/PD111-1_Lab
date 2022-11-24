@@ -27,3 +27,5 @@
 # include "./headers/zoo.h"
 # include "./headers/air.h"
 # include "./headers/book.h"
+# include "./headers/cash.h"
+# include "./headers/dice.h"

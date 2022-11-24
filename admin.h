@@ -8,7 +8,7 @@
 #include <iomanip>
 using namespace std;
 
-const int studentCnt = 28;
+const int studentCnt = 52;
 const int headerCnt = studentCnt;
 int currentCnt = 0;
 float acceptCnt = 0;
@@ -50,7 +50,9 @@ pair <int, int> table[headerCnt] = {
   make_pair(yoyo, 'y' + 'o' + 'y' + 'o'),
   make_pair(zoo, 'z' + 'o' + 'o'),
   make_pair(air, 'a' + 'i' + 'r'),
-  make_pair(book, 'b' + 'o' + 'o' + 'k')
+  make_pair(book, 'b' + 'o' + 'o' + 'k'),
+  make_pair(cash, 'c' + 'a' + 's' + 'h'),
+  make_pair(dice, 'd' + 'i' + 'c' + 'e'),
 };
 
 //
