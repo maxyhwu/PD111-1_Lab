@@ -60,7 +60,7 @@ pair <int, int> table[headerCnt] = {
 void loader(){
   cout << "\x1b[2J";
   cout << "\x1b[H";
-  for (int i = 0; i < 42; i++){
+  for (int i = 0; i < 10; i++){
     cout << "Loading";
     for (int j = 0; j <= i; j++){
       cout << ".";
