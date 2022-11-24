@@ -1,1 +1,1 @@
-int ball = 'b' + 'a' + 'l' + 'l';
+int ball;

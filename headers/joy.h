@@ -1,1 +1,1 @@
-int joy = 'j' + 'o' + 'y';
+int joy;

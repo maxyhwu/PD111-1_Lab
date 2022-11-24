@@ -1,1 +1,1 @@
-int play = 'p' + 'l' + 'a' + 'y';
+int play;

@@ -1,1 +1,1 @@
-int good = 'g' + 'o' + 'o' + 'd';
+int good;

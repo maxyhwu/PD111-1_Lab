@@ -1,1 +1,1 @@
-int gone = 'g' + 'o' + 'n' + 'e';
+int gone;

@@ -1,1 +1,1 @@
-int fire = 'f' + 'i' + 'r' + 'e';
+int fire;

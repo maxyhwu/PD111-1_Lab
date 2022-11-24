@@ -1,1 +1,1 @@
-int opt = 'o' + 'p' + 't';
+int opt;

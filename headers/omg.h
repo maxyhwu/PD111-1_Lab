@@ -1,1 +1,1 @@
-int omg = 'o' + 'm' + 'g';
+int omg;

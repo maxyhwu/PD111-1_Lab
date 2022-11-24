@@ -1,1 +1,1 @@
-int high = 'h' + 'i' + 'g' + 'h';
+int high;

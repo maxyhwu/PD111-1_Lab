@@ -1,1 +1,1 @@
-int egg = 'e' + 'g' + 'g';
+int egg;

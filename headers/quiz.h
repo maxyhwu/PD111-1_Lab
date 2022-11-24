@@ -1,1 +1,1 @@
-int quiz = 'q' + 'u' + 'i' + 'z';
+int quiz;

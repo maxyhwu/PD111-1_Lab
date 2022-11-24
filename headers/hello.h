@@ -1,1 +1,1 @@
-int hello = 'h' + 'e' + 'l' + 'l' + 'o';
+int hello;

@@ -1,1 +1,1 @@
-int air = 'a' + 'i' + 'r';
+int air;

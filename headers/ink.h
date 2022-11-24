@@ -1,1 +1,1 @@
-int ink = 'i' + 'n' + 'k';
+int ink;

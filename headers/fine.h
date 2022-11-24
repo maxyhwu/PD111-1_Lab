@@ -1,1 +1,1 @@
-int fine = 'f' + 'i' + 'n' + 'e';
+int fine;

@@ -1,1 +1,1 @@
-int read = 'r' + 'e' + 'a' + 'd';
+int read;

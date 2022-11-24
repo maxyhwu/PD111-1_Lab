@@ -1,1 +1,1 @@
-int duck = 'd' + 'u' + 'c' + 'k';
+int duck;

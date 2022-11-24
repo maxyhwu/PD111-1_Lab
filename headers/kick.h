@@ -1,1 +1,1 @@
-int kick = 'k' + 'i' + 'c' + 'k';
+int kick;

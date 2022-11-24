@@ -1,1 +1,1 @@
-int dice = 'd' + 'i' + 'c' + 'e';
+int dice;

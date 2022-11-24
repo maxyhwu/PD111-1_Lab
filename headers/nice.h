@@ -1,1 +1,1 @@
-int nice = 'n' + 'i' + 'c' + 'e';
+int nice;

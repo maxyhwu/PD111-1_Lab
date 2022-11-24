@@ -1,1 +1,1 @@
-int lemon = 'l' + 'e' + 'm' + 'o' + 'n';
+int lemon;
