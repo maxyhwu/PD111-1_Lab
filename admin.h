@@ -8,8 +8,8 @@
 #include <iomanip>
 using namespace std;
 
-const int studentCnt = 26;
-const int headerCnt = 26;
+const int studentCnt = 28;
+const int headerCnt = studentCnt;
 int currentCnt = 0;
 float acceptCnt = 0;
 
@@ -48,12 +48,16 @@ pair <int, int> table[headerCnt] = {
   make_pair(work, 'w' + 'o' + 'r' + 'k'),
   make_pair(xray, 'x' + 'r' + 'a' + 'y'),
   make_pair(yoyo, 'y' + 'o' + 'y' + 'o'),
-  make_pair(zoo, 'z' + 'o' + 'o')
+  make_pair(zoo, 'z' + 'o' + 'o'),
+  make_pair(air, 'a' + 'i' + 'r'),
+  make_pair(book, 'b' + 'o' + 'o' + 'k')
 };
 
 //
 
 void loader(){
+  cout << "\x1b[2J";
+  cout << "\x1b[H";
   for (int i = 0; i <= 42; i++){
     cout << "Loading";
     for (int j = 0; j <= i; j++){
@@ -71,7 +75,6 @@ void loader(){
   cout << endl;
   cout << "=================================================" << endl;
   std::this_thread::sleep_for(std::chrono::seconds(2));
-  //system("cls");
 }
 
 bool checker(){
