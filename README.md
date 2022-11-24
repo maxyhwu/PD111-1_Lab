@@ -12,4 +12,4 @@ To make this project interesting, if the accuracy is high enough, a delicious do
 
 [^1]: Programming Design, a required course for freshmen in the Department of Information Management, National Taiwan University (NTUIM).
 [^2]: This project is designed and created by the TAs: Yu-Hsuan Wu, Ho-Chien Wu, and Po-Chen Yeh.
-[^3]: The origin source of Delicious donuts please see [Here](https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp).
+[^3]: For the original source code of Delicious donuts, please see [Here](https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp).
