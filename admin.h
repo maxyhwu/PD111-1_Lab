@@ -9,7 +9,7 @@
 using namespace std;
 
 const int studentCnt = 52;
-const int headerCnt = studentCnt;
+const int headerCnt = 30;
 int currentCnt = 0;
 float acceptCnt = 0;
 
@@ -65,7 +65,6 @@ void loader(){
     for (int j = 0; j <= i; j++){
       cout << ".";
     }
-    std::this_thread::sleep_for(std::chrono::nanoseconds(10000000));
     cout << endl;
   }
   currentCnt++;
