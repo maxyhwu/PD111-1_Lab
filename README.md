@@ -5,9 +5,9 @@ In this project, students would learn how to use and why should use git to contr
 
 This guide includes a slide and some codes, and since Programming Design is a C++ programming course, we thus design this simple C++ project. The goal is to guide students about how to use simple git command such as `add`, `commit`, `pull`, and `push`. And they could also learn how to **create new branch** and **pull request** to contribute to projects.
 
-In class, each students will be assigned to complete a header file by declaring an integer whose name is the same as the name of the header file and value is the sum of each character in its name.
+In class, each students will be assigned to complete a header file by declaring an integer whose name is the same as the name of the header file and the value is the sum of each character in its name.
 
-Students would first clone this repository, create a new branch of their own, and complete the tasks assigned previously. Next, they should try use git commands to save their changes in GitHub and create pull request to the main branch. Fianlly, the instructor will then merge all completed tasks and see if the main file could run.
+Students would first clone this repository, create a new branch of their own, and complete the tasks assigned previously. Next, they should try use git commands to save their changes in GitHub and create pull request to the main branch. Finally, the instructor will then merge all completed tasks and see if the main file could run.
 
 To make this project more entertaining, if the accuracy of students' work in the header files is high enough, a delicious doughnut animation[^3] will appear, or a sad face, otherwise.
 
