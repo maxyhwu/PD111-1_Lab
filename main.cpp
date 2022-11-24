@@ -1,5 +1,4 @@
 #include <iostream>
-#include "allHeader.h"
 #include "admin.h"
 using namespace std;
 
