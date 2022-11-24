@@ -14,6 +14,6 @@ To make this project more entertaining, if the accuracy of students' work in the
 
 
 
-[^1]: Programming Design, course ID: IM1003, a required course for freshmen in the Department of Information Management, National Taiwan University (NTUIM).
+[^1]: IM1003, a required course for freshmen in the Department of Information Management, National Taiwan University (NTUIM).
 [^2]: This project is designed and created by the TAs: Yu-Hsuan Wu, He-Chien Wu, and Po-Chen Yeh.
 [^3]: For the original source code of Delicious donuts, please see [Here](https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp).
