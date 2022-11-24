@@ -54,7 +54,7 @@ pair <int, int> table[headerCnt] = {
 //
 
 void loader(){
-  for (int i = 0; i <= 42; i++){
+  for (int i = 0; i < 42; i++){
     cout << "Loading";
     for (int j = 0; j <= i; j++){
       cout << ".";
@@ -66,11 +66,14 @@ void loader(){
   cout << "=================================================" << endl;
   cout << endl;
   cout << endl;
-  cout << "        Current Accepted Rate: " << setprecision(2) << 100 * (acceptCnt / currentCnt) << "%" << endl;
+  if(acceptCnt == 0)
+    cout << "        Current Accepted Rate: " << 0 << "%" << endl;
+  else
+    cout << "        Current Accepted Rate: " << setprecision(2) << 100 * (acceptCnt / currentCnt) << "%" << endl;
   cout << endl;
   cout << endl;
   cout << "=================================================" << endl;
-  std::this_thread::sleep_for(std::chrono::seconds(2));
+  std::this_thread::sleep_for(std::chrono::seconds(1));
   //system("cls");
 }
 
