@@ -1,6 +1,6 @@
 #include "allHeader.h"
-#include "./admin/doughnut.h"
-#include "./admin/fail.h"
+#include "admin/doughnut.h"
+#include "admin/fail.h"
 #include <string>
 #include <iostream>
 #include <chrono>
@@ -8,8 +8,8 @@
 #include <iomanip>
 using namespace std;
 
-const int studentCnt = 52;
-const int headerCnt = 30;
+const int studentCnt = 52; // to be determined
+const int headerCnt = 52;
 int currentCnt = 0;
 float acceptCnt = 0;
 
@@ -53,6 +53,28 @@ pair <int, int> table[headerCnt] = {
   make_pair(book, 'b' + 'o' + 'o' + 'k'),
   make_pair(cash, 'c' + 'a' + 's' + 'h'),
   make_pair(dice, 'd' + 'i' + 'c' + 'e'),
+  make_pair(eagle, 'e' + 'a' + 'g' + 'l' + 'e'),
+  make_pair(fine, 'f' + 'i' + 'n' + 'e'),
+  make_pair(gone, 'g' + 'o' + 'n' + 'e'),
+  make_pair(hello, 'h' + 'e' + 'l' + 'l' + 'o'),
+  make_pair(inter, 'i' + 'n' + 't' + 'e' + 'r'),
+  make_pair(jam, 'j' + 'a' + 'm'),
+  make_pair(kick, 'k' + 'i' + 'c' + 'k'),
+  make_pair(lemon, 'l' + 'e' + 'm' + 'o' + 'n'),
+  make_pair(money, 'm' + 'o' + 'n' + 'e' + 'y'),
+  make_pair(nice, 'n' + 'i' + 'c' + 'e'),
+  make_pair(omg, 'o' + 'm' + 'g'),
+  make_pair(play, 'p' + 'l' + 'a' + 'y'),
+  make_pair(queue, 'q' + 'u' + 'e' + 'u' + 'e'),
+  make_pair(read, 'r' + 'e' + 'a' + 'd'),
+  make_pair(stop, 's' + 't' + 'o' + 'p'),
+  make_pair(temp, 't' + 'e' + 'm' + 'p'),
+  make_pair(under, 'u' + 'n' + 'd' + 'e' + 'r'),
+  make_pair(vent, 'v' + 'e' + 'n' + 't'),
+  make_pair(what, 'w' + 'h' + 'a' + 't'),
+  make_pair(xat, 'x' + 'a' + 't'),
+  make_pair(yes, 'y' + 'e' + 's'),
+  make_pair(zip, 'z' + 'i' + 'p')
 };
 
 //
@@ -60,11 +82,14 @@ pair <int, int> table[headerCnt] = {
 void loader(){
   cout << "\x1b[2J";
   cout << "\x1b[H";
-  for (int i = 0; i < 10; i++){
+  for (int i = 0; i < 42; i++){
+    cout << "\x1b[2J";
+    cout << "\x1b[H";
     cout << "Loading";
     for (int j = 0; j <= i; j++){
       cout << ".";
     }
+    std::this_thread::sleep_for(std::chrono::nanoseconds(10000000));
     cout << endl;
   }
   currentCnt++;
@@ -74,7 +99,7 @@ void loader(){
   if(acceptCnt == 0)
     cout << "        Current Accepted Rate: " << 0 << "%" << endl;
   else
-    cout << "        Current Accepted Rate: " << setprecision(2) << 100 * (acceptCnt / currentCnt) << "%" << endl;
+    cout << "        Current Accepted Rate: " << 100 * (acceptCnt / studentCnt) << "%" << endl;
   cout << endl;
   cout << endl;
   cout << "=================================================" << endl;
