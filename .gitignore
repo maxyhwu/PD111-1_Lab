@@ -1,7 +1,5 @@
 
 .vscode
 .DS_Store
-
-admin.h
 main
 *.exe
